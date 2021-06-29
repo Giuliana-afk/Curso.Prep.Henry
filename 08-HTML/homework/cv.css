@@ -1,0 +1,146 @@
+/*----------GENERAL----------*/
+/*PALETA DE COLORES. #276359  #8EBBA7  #B9CDCB  #F2DDCC  #FCAC89*/
+
+body{
+    margin: 10px auto;
+    width: 1200px;
+    background: #B9CDCB;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-bottom: 2px solid #8EBBA7;
+    font-size: 1.5em;
+}
+
+/*----------HEADER----------*/
+
+header{
+    display: flex;
+    background-color: #276359;
+    width: 1200px;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 50px 20px #276359;
+}
+#profilepic img{
+    border-radius: 50%;
+    border: 10px double #FCAC89;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+h1{
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium';
+    font-style: oblique;
+    color: #FCAC89;
+}
+header h3{
+    font-family:monospace;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#F2DDCC;
+    border-top: 2px solid #F2DDCC;
+}
+
+/*----------CONTENEDOR DE ASIDE Y MAIN----------*/
+
+.container{
+    display: flex;
+    width:1200px;
+    justify-content: center;
+}
+
+/*----------ASIDE----------*/
+
+aside{
+    background-color: #F2DDCC;
+    width: 35%;
+    box-shadow: 0 20px 50px 20px #276359;
+    padding:10px 10px;
+}
+ul{
+    list-style-type: square;
+    font-family: Courier;
+    font-size: medium;
+    font-weight: bold;
+    line-height: 2em;
+}
+aside h3{
+    list-style-type: square;
+    font-family: Courier;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+aside p{
+    list-style-type:square;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
+    font-weight: bold;
+}
+
+/*----------MAIN----------*/
+
+main{
+    background-color:#8EBBA7;
+    width: 65%;
+    box-shadow: 10px 20px 50px 10px #276359;
+    margin-left: 10px;
+    text-align: center;
+    padding:10px 20px;
+}
+main h2{
+    border-bottom: 2px solid #F2DDCC;
+    text-align: center;
+}
+main h3{
+    font-family: sans-serif;
+    font-size: 1.1em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    line-height: 0;
+    text-align: center;
+    border-top: 1px dashed #B9CDCB;
+}
+main h4{
+    line-height: 0;
+    text-align: center;
+}
+main section:first-child p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: lighter
+    ;
+}
+main p{
+    font-style: oblique;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+
+/*----------FOOTER----------*/
+
+footer{
+    display: flex;
+    background: #B9CDCB;
+    text-align: center;
+    justify-content: center;
+}
+footer section h2{
+    border-bottom: 2px solid #FCAC89;
+}
+footer p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: lighter;
+    font-weight: lighter;
+}
+
+/*Que satisfactorio fue terminar este curriculum después del tiempazo que me llevó.
+En base a mis escasos conocimientos diré que me siento muy contenta con el resultado jajaj!
+Quedó re lindo n.n */
