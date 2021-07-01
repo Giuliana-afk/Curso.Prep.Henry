@@ -10,6 +10,13 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  let result = [];
+  for(key of Object.keys(objeto)) {
+    result.push(
+      [key, objeto[key]]
+    )
+  }
+  return result;
 }
 
 
@@ -18,6 +25,12 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+
+    var objeto = {}; 
+    for(var i in string){
+        objeto[string[i]] = ( objeto[string[i]] || 0 ) + 1; // Incrementam el valor si el elemento ya existe
+    }
+    return objeto;
 }
 
 
@@ -26,6 +39,18 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  let array = Array.from(s);
+  var mayusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+for (var i = 0; i < mayusculas.length; i++) {
+ for (var j = 0; j < s.length; j++) {
+ if(array[j]===mayusculas[i]){
+   array.pop(mayusculas[i])
+   array.unshift(mayusculas[i]);
+      }
+    }
+  }
+return array;
 }
 
 
